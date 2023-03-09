@@ -28,7 +28,7 @@ function Section(props) {
                     </Fade>
                     {
                         props.BottomButton &&
-                        <DownArrow src="/images/down-arrow.svg"></DownArrow>
+                        <DownArrow src="images/down-arrow.svg"></DownArrow>
                     }
                 </ButtonGroup>
 
