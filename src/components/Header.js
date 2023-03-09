@@ -19,7 +19,7 @@ function Header() {
     return (
         <Container>
             <a>
-                <img alt="" src="/images/logo.svg" />
+                <img alt="" src="images/logo.svg" />
             </a>
             <ModelMenu>
                 {cars && cars.map((data, index) => (<p key={index}><a href="#">{data}</a></p>))}
